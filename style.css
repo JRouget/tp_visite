@@ -1,3 +1,49 @@
 * {
+    margin: 0;
+    padding: 0;
+    width: 85mm;
+    height: 55mm;
+    font-size: 10px;
     
+}
+
+h1 {
+    font-size: larger;
+}
+
+main {
+    display: flex;
+    padding-left: 5px;
+}
+
+body {
+    display: flex;
+    border: 2px solid;
+    height: 55mm;
+    width: 85mm;
+    border-color: white;
+    background-color: #1a1a2e;
+    color: white;
+}
+
+.premier {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    position: absolute;
+    left: 170px;
+}
+
+img {
+    height: 40mm;
+    width: 40mm;
+}
+
+address {
+    display: flex;
+    flex-direction: column; 
+    height: 30mm;
+    width: 30mm;
 }
